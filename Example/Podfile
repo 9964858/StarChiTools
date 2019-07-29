@@ -1,0 +1,6 @@
+use_frameworks!
+target 'StarChiTools_Tests' do
+  pod 'StarChiTools', :path => '../'
+  
+  
+end
