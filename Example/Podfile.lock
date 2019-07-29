@@ -1,0 +1,23 @@
+PODS:
+  - MBProgressHUD (1.1.0)
+  - StarChiTools (0.1.0):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - StarChiTools (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  StarChiTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  StarChiTools: 8259a7eda35578e0a4f6b53800e9e155e196d306
+
+PODFILE CHECKSUM: 2edf2d2653255f8aa23e38cd39b15fc2bbbe9689
+
+COCOAPODS: 1.7.2

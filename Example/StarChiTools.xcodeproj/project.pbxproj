@@ -7,41 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		E6097D69515DA1A1B7B63860 /* Pods_StarChiTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEDA164A7E598EE3BFA541 /* Pods_StarChiTools_Tests.framework */; };
+		30E3611A771F0E002D93935A /* Pods_StarChiTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A01FDEB2271AE6ABF3CBAB /* Pods_StarChiTools.framework */; };
+		D3948D7522EEC8A500A85240 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3948D7422EEC8A500A85240 /* AppDelegate.m */; };
+		D3948D7822EEC8A500A85240 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3948D7722EEC8A500A85240 /* ViewController.m */; };
+		D3948D7B22EEC8A500A85240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3948D7922EEC8A500A85240 /* Main.storyboard */; };
+		D3948D7D22EEC8A600A85240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3948D7C22EEC8A600A85240 /* Assets.xcassets */; };
+		D3948D8022EEC8A600A85240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3948D7E22EEC8A600A85240 /* LaunchScreen.storyboard */; };
+		D3948D8322EEC8A600A85240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3948D8222EEC8A600A85240 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4CCEDA164A7E598EE3BFA541 /* Pods_StarChiTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarChiTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3A19633023E1884F1118E4 /* Pods-StarChiTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarChiTools.debug.xcconfig"; path = "Target Support Files/Pods-StarChiTools/Pods-StarChiTools.debug.xcconfig"; sourceTree = "<group>"; };
+		58BCF6821E9C87DCEC367413 /* Pods-StarChiTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarChiTools.release.xcconfig"; path = "Target Support Files/Pods-StarChiTools/Pods-StarChiTools.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* StarChiTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarChiTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6DDDD8F8672DF69B72A44DDB /* Pods-StarChiTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarChiTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-StarChiTools_Tests/Pods-StarChiTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		85E7B36D80608C8A83A8774F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		85E7B36D80608C8A83A8774F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8615B78897F7F1840874688B /* Pods-StarChiTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarChiTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-StarChiTools_Tests/Pods-StarChiTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C13CF51D971F6EAB948CE8A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F59CE7040D04C2D69CEC0B39 /* StarChiTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StarChiTools.podspec; path = ../StarChiTools.podspec; sourceTree = "<group>"; };
+		C13CF51D971F6EAB948CE8A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D3948D7122EEC8A500A85240 /* StarChiTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarChiTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3948D7322EEC8A500A85240 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3948D7422EEC8A500A85240 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3948D7622EEC8A500A85240 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3948D7722EEC8A500A85240 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3948D7A22EEC8A500A85240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3948D7C22EEC8A600A85240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3948D7F22EEC8A600A85240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3948D8122EEC8A600A85240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3948D8222EEC8A600A85240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1A01FDEB2271AE6ABF3CBAB /* Pods_StarChiTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarChiTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59CE7040D04C2D69CEC0B39 /* StarChiTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StarChiTools.podspec; path = ../StarChiTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		D3948D6E22EEC8A500A85240 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E6097D69515DA1A1B7B63860 /* Pods_StarChiTools_Tests.framework in Frameworks */,
+				30E3611A771F0E002D93935A /* Pods_StarChiTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F5B5195388D20070C39A /* Tests */,
+				D3948D7222EEC8A500A85240 /* StarChiTools */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				6BD2D2511BBCF57C9BDDC97A /* Pods */,
@@ -62,7 +66,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5AE195388D20070C39A /* StarChiTools_Tests.xctest */,
+				D3948D7122EEC8A500A85240 /* StarChiTools.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,29 +77,9 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4CCEDA164A7E598EE3BFA541 /* Pods_StarChiTools_Tests.framework */,
+				E1A01FDEB2271AE6ABF3CBAB /* Pods_StarChiTools.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
@@ -113,32 +97,49 @@
 			children = (
 				8615B78897F7F1840874688B /* Pods-StarChiTools_Tests.debug.xcconfig */,
 				6DDDD8F8672DF69B72A44DDB /* Pods-StarChiTools_Tests.release.xcconfig */,
+				1A3A19633023E1884F1118E4 /* Pods-StarChiTools.debug.xcconfig */,
+				58BCF6821E9C87DCEC367413 /* Pods-StarChiTools.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3948D7222EEC8A500A85240 /* StarChiTools */ = {
+			isa = PBXGroup;
+			children = (
+				D3948D7322EEC8A500A85240 /* AppDelegate.h */,
+				D3948D7422EEC8A500A85240 /* AppDelegate.m */,
+				D3948D7622EEC8A500A85240 /* ViewController.h */,
+				D3948D7722EEC8A500A85240 /* ViewController.m */,
+				D3948D7922EEC8A500A85240 /* Main.storyboard */,
+				D3948D7C22EEC8A600A85240 /* Assets.xcassets */,
+				D3948D7E22EEC8A600A85240 /* LaunchScreen.storyboard */,
+				D3948D8122EEC8A600A85240 /* Info.plist */,
+				D3948D8222EEC8A600A85240 /* main.m */,
+			);
+			path = StarChiTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F5AD195388D20070C39A /* StarChiTools_Tests */ = {
+		D3948D7022EEC8A500A85240 /* StarChiTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "StarChiTools_Tests" */;
+			buildConfigurationList = D3948D8422EEC8A600A85240 /* Build configuration list for PBXNativeTarget "StarChiTools" */;
 			buildPhases = (
-				9B3079FDF89235CBE3766697 /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				46756652F420A3564BAAFE5C /* [CP] Embed Pods Frameworks */,
+				DBE06F3E18BC8D04752FDE03 /* [CP] Check Pods Manifest.lock */,
+				D3948D6D22EEC8A500A85240 /* Sources */,
+				D3948D6E22EEC8A500A85240 /* Frameworks */,
+				D3948D6F22EEC8A500A85240 /* Resources */,
+				ACC72F15A38BF80FA3EAB879 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StarChiTools_Tests;
-			productName = StarChiToolsTests;
-			productReference = 6003F5AE195388D20070C39A /* StarChiTools_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = StarChiTools;
+			productName = StarChiTools;
+			productReference = D3948D7122EEC8A500A85240 /* StarChiTools.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -150,8 +151,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = 9964858;
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					D3948D7022EEC8A500A85240 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = FWLSA9X2E6;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -160,6 +163,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -168,42 +172,46 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F5AD195388D20070C39A /* StarChiTools_Tests */,
+				D3948D7022EEC8A500A85240 /* StarChiTools */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F5AC195388D20070C39A /* Resources */ = {
+		D3948D6F22EEC8A500A85240 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				D3948D8022EEC8A600A85240 /* LaunchScreen.storyboard in Resources */,
+				D3948D7D22EEC8A600A85240 /* Assets.xcassets in Resources */,
+				D3948D7B22EEC8A500A85240 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		46756652F420A3564BAAFE5C /* [CP] Embed Pods Frameworks */ = {
+		ACC72F15A38BF80FA3EAB879 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StarChiTools_Tests/Pods-StarChiTools_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-StarChiTools/Pods-StarChiTools-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/StarChiTools/StarChiTools.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarChiTools.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarChiTools_Tests/Pods-StarChiTools_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarChiTools/Pods-StarChiTools-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9B3079FDF89235CBE3766697 /* [CP] Check Pods Manifest.lock */ = {
+		DBE06F3E18BC8D04752FDE03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,7 +226,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StarChiTools_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-StarChiTools-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -228,23 +236,33 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6003F5AA195388D20070C39A /* Sources */ = {
+		D3948D6D22EEC8A500A85240 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				D3948D7822EEC8A500A85240 /* ViewController.m in Sources */,
+				D3948D8322EEC8A600A85240 /* main.m in Sources */,
+				D3948D7522EEC8A500A85240 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+		D3948D7922EEC8A500A85240 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5B9195388D20070C39A /* en */,
+				D3948D7A22EEC8A500A85240 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3948D7E22EEC8A600A85240 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3948D7F22EEC8A600A85240 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,54 +334,91 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
+		D3948D8522EEC8A600A85240 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8615B78897F7F1840874688B /* Pods-StarChiTools_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1A3A19633023E1884F1118E4 /* Pods-StarChiTools.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FWLSA9X2E6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StarChiTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = PodToolsTest.StarChiTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarChiTools_Example.app/StarChiTools_Example";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6003F5C4195388D20070C39A /* Release */ = {
+		D3948D8622EEC8A600A85240 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DDDD8F8672DF69B72A44DDB /* Pods-StarChiTools_Tests.release.xcconfig */;
+			baseConfigurationReference = 58BCF6821E9C87DCEC367413 /* Pods-StarChiTools.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FWLSA9X2E6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StarChiTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = PodToolsTest.StarChiTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarChiTools_Example.app/StarChiTools_Example";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -379,11 +434,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "StarChiTools_Tests" */ = {
+		D3948D8422EEC8A600A85240 /* Build configuration list for PBXNativeTarget "StarChiTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				D3948D8522EEC8A600A85240 /* Debug */,
+				D3948D8622EEC8A600A85240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

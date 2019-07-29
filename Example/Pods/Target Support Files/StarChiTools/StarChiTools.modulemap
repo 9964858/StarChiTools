@@ -1,0 +1,6 @@
+framework module StarChiTools {
+  umbrella header "StarChiTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

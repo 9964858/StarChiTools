@@ -1,0 +1,6 @@
+framework module Pods_StarChiTools {
+  umbrella header "Pods-StarChiTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
