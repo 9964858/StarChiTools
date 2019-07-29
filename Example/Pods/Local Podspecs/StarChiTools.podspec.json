@@ -2,7 +2,7 @@
   "name": "StarChiTools",
   "version": "0.1.0",
   "summary": "常用工具和控件",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "#TODO: Add long description of the pod here.\n常用的一些控件和宏定义、方法",
   "homepage": "https://github.com/9964858/StarChiTools",
   "license": {
     "type": "MIT",
