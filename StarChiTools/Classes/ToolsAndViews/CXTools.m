@@ -8,7 +8,6 @@
 
 #import "CXTools.h"
 //#import "SSZipArchive.h"
-#import <MBProgressHUD/MBProgressHUD.h>
 // 使用截屏的功能
 #import <QuartzCore/QuartzCore.h>
 

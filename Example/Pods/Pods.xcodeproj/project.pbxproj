@@ -7,147 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19C0E4650126F1B260C2B989204A9954 /* TextViewAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF38F94552DA7ACB9926A8CDC4800AF0 /* TextViewAlertView.m */; };
-		203E257F98A7FC0745E7E807B92E5D48 /* StarChiTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2270747B358595127353FD785E4D1B2E /* StarChiTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E2EFDC8207F98ACB60D43964CE41996 /* StarChiTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A04F0E2F8F6F75FAD6F241DB002D4AA /* StarChiTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43C929AC64305D79DB73C0B06A5C7DF5 /* StarChiTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A58D915C31326BC0CB7FCFEB13A8B4C7 /* StarChiTools-dummy.m */; };
-		4AA2AA7E38283E40177A3DDF78D5C0E0 /* Pods-StarChiTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E7288F8CBF9E5B393F672E9167835B /* Pods-StarChiTools-dummy.m */; };
-		586AB2CECD9C8D15884EB85822FC2704 /* CXSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7C73FE7BFC9F4878BFD63D4AFD0F8A /* CXSwitchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59C76A50BA72437E5F1448CBBFAD9FAA /* Pods-StarChiTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2271A991BBABB2CFE0CFD2FAB5A4336 /* Pods-StarChiTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CD21B6782550A2DB8C9861E32AD9AEB /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F33ADFCB527F68C5371AA3DFC176C30 /* MBProgressHUD+MJ.m */; };
-		64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */; };
-		6DBD55D8B9829855B67B1D938E481704 /* CXSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF561979532831ED0F63B057D1722A1C /* CXSwitchView.m */; };
-		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6152B0CD59AAF2557B3AA4375B61BEED /* MBProgressHUD.m */; };
-		73FE1A7CD08D35DCAE1EB38FB42407C7 /* CXDatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F802128FE45045D9E315D7888F93A3 /* CXDatePickView.m */; };
-		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 071047A4A08135548333750E08C06DA7 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90C0D19689E7ADBEA56BE1E36CE4EC17 /* TextViewAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2B75D3B508D7CC1A9415C19C945115 /* TextViewAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9484DEED00CB34EF47DDB70577496333 /* MBProgressHUD+MJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FE0DB25C646A31729DC544B89FA03F /* MBProgressHUD+MJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9585329DA46B828C05412F91D05959A8 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */; };
-		A601994621C892656F60D1A1292A9565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */; };
-		A7547C6E13B778E588A2B60AF851441B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
-		AC298144D2B0E5A09EC9923D319DADB6 /* CXDatePickView.h in Headers */ = {isa = PBXBuildFile; fileRef = F57D2F0A2EC390F07BC321FD999CBBA3 /* CXDatePickView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF6C21B312F139494D97FE8DAB361BF7 /* CXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E2664F89261F57ABED1B5E62BA438958 /* CXTools.m */; };
-		D8441158F117451184DC4BD1A9476C2A /* CXTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F7924694FA9FB4EDEF5AFA5A4AF3DE /* CXTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 657678C8C3FB4725CEE10D8E8607F1EE /* MBProgressHUD-dummy.m */; };
-		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F577B8E0584616877479393158F32B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
-		FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */; };
+		16C82A31739E1E1ED53F8CBCB27474F6 /* StarChiTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D7641AF03672B2AAF8D9B3F9C7673A /* StarChiTools-dummy.m */; };
+		1746989E77E010935943136D19095C92 /* CXDatePickView.h in Headers */ = {isa = PBXBuildFile; fileRef = A024325FBD8E8CF406893D386827E0FE /* CXDatePickView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29FD91A9C341A00CB01025F6D4545C0E /* TextViewAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEFFD6B39D509A49B75AB740B98FBB /* TextViewAlertView.m */; };
+		7AFD061AA59C0C87BFD95B7967FB78E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7BD53DE09C23BBAC7950D12AC7959E6A /* CXSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = C755D96E4F6522ED3475F6C981CB6CB7 /* CXSwitchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		893ED9DF5A0381F600B5B32C940283BA /* CXTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAE9E122A7237637D54875AEBBC3CE3 /* CXTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB6B8FEA9354310975F4C3071EC44EE /* StarChiTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBDAC6D4051AECF820DC22D54EE34DC /* StarChiTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD29823A035F3A5D39A7B2C658FF992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B7E5DADB5E4A2F3AB759D8F4920E2166 /* Pods-StarChiTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E7288F8CBF9E5B393F672E9167835B /* Pods-StarChiTools-dummy.m */; };
+		C1BA50BAFD7B7D191067A3AD5E82B42B /* CXDatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B221343CA71022A5560F4963AEBE6A /* CXDatePickView.m */; };
+		C6EA97CE67E6E4571658385857FF2B81 /* CXSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA87766886EA8D2DBA44522ADF26C18A /* CXSwitchView.m */; };
+		D79B2BFED41279F9961866B9A999B49B /* TextViewAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = F186AABBEBB3881C5AD32170CD2CCBAB /* TextViewAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5424B5E3AD2DCD38A3C02C3552FE6F1 /* StarChiTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1A6D38255F6A0D8AEB3500E7B97940 /* StarChiTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCBD8A495C40A47630188EBB3AF88FFF /* CXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B6AC8DD90694C87F4A214DFF883E7 /* CXTools.m */; };
+		FF0EBCF560604CB57B68A4E751F12851 /* Pods-StarChiTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2271A991BBABB2CFE0CFD2FAB5A4336 /* Pods-StarChiTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14CBF56FCE6D458B722E1D765D4344FC /* PBXContainerItemProxy */ = {
+		4E7447ADF378013FF1A740ACFB03E9A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 425D476AC54FF8E6C71E36FA0729947C;
 			remoteInfo = StarChiTools;
 		};
-		8830CE53E1CFD09EB30F7D472EC05475 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
-		CDEBEB29590693947E74D868B3B42A9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		071047A4A08135548333750E08C06DA7 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		10294C885D125202C313941FBCDD23B7 /* Pods-StarChiTools-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarChiTools-acknowledgements.plist"; sourceTree = "<group>"; };
 		1951D88FA7A178AC3A5D789120B13AEB /* Pods_StarChiTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarChiTools.framework; path = "Pods-StarChiTools.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2270747B358595127353FD785E4D1B2E /* StarChiTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarChiTools-umbrella.h"; sourceTree = "<group>"; };
-		2B2B75D3B508D7CC1A9415C19C945115 /* TextViewAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextViewAlertView.h; sourceTree = "<group>"; };
+		1B1A6D38255F6A0D8AEB3500E7B97940 /* StarChiTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarChiTools-umbrella.h"; sourceTree = "<group>"; };
+		1F4B6AC8DD90694C87F4A214DFF883E7 /* CXTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXTools.m; sourceTree = "<group>"; };
+		272C9F4F08B951EA590E33CA30B3D4C8 /* StarChiTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarChiTools-prefix.pch"; sourceTree = "<group>"; };
 		30EDA8E1946FC414332E07FDDABBA9B0 /* StarChiTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StarChiTools.framework; path = StarChiTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		314A8B77E12FA60EC7A3A26BD6902E97 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		31B7DCA5E5EC744EDB5DEBAFB8912F20 /* Pods-StarChiTools-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarChiTools-acknowledgements.markdown"; sourceTree = "<group>"; };
-		37ABD8DCAA991ADD9AA4DDA40D85379D /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		3C7C73FE7BFC9F4878BFD63D4AFD0F8A /* CXSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXSwitchView.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4A5B44719A8BFD0097FAD6C9B1036DEC /* Pods-StarChiTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarChiTools.release.xcconfig"; sourceTree = "<group>"; };
-		4F33ADFCB527F68C5371AA3DFC176C30 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		51C99537DECCEFC107FB0ABDA5419530 /* StarChiTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StarChiTools.modulemap; sourceTree = "<group>"; };
 		560B10BB93E4F4181740EEFB50F4F0F3 /* Pods-StarChiTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarChiTools-Info.plist"; sourceTree = "<group>"; };
-		56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6152B0CD59AAF2557B3AA4375B61BEED /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		619D2E1B8E7310902C83396D0E12E72A /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		657678C8C3FB4725CEE10D8E8607F1EE /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		66F802128FE45045D9E315D7888F93A3 /* CXDatePickView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXDatePickView.m; sourceTree = "<group>"; };
-		6A04F0E2F8F6F75FAD6F241DB002D4AA /* StarChiTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StarChiTools.h; path = StarChiTools/Classes/StarChiTools.h; sourceTree = "<group>"; };
-		6A3B4CB50C25389D58CDDF67543E0FDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7A3DB5C5EE6FDD2943B87E56766B330D /* StarChiTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StarChiTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		803DD1086456F08378A881FD65F916F0 /* StarChiTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StarChiTools-Info.plist"; sourceTree = "<group>"; };
-		80F7924694FA9FB4EDEF5AFA5A4AF3DE /* CXTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXTools.h; sourceTree = "<group>"; };
+		5A20AF676B4A51F9326659ABC76DF5D6 /* StarChiTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StarChiTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F7E196E34BF7CDDDA59E6793472E1CF /* StarChiTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarChiTools.xcconfig; sourceTree = "<group>"; };
+		6A23DEA73E273A5BB03B6AE883ECBF6B /* StarChiTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StarChiTools-Info.plist"; sourceTree = "<group>"; };
 		83E7288F8CBF9E5B393F672E9167835B /* Pods-StarChiTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarChiTools-dummy.m"; sourceTree = "<group>"; };
-		850FF76381C7E65E1AF730D36F519546 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		89FE0DB25C646A31729DC544B89FA03F /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		949CDA0FCB8E1CFBB18EB89959A23E89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9A2D7C589177C8B40FF7FCC6EA942000 /* StarChiTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StarChiTools.modulemap; sourceTree = "<group>"; };
+		997839ADED04D4B74B5880D0CD05EFEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A58D915C31326BC0CB7FCFEB13A8B4C7 /* StarChiTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarChiTools-dummy.m"; sourceTree = "<group>"; };
-		B9777BE48648035B5734C1BD7A2CAA7D /* StarChiTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarChiTools.xcconfig; sourceTree = "<group>"; };
-		BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C028D4477E354FFC0EE543EF08008B7F /* StarChiTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarChiTools-prefix.pch"; sourceTree = "<group>"; };
-		DF38F94552DA7ACB9926A8CDC4800AF0 /* TextViewAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TextViewAlertView.m; sourceTree = "<group>"; };
-		E2664F89261F57ABED1B5E62BA438958 /* CXTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXTools.m; sourceTree = "<group>"; };
-		E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		EF561979532831ED0F63B057D1722A1C /* CXSwitchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXSwitchView.m; sourceTree = "<group>"; };
+		9EAE9E122A7237637D54875AEBBC3CE3 /* CXTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXTools.h; sourceTree = "<group>"; };
+		A024325FBD8E8CF406893D386827E0FE /* CXDatePickView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXDatePickView.h; sourceTree = "<group>"; };
+		AA87766886EA8D2DBA44522ADF26C18A /* CXSwitchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXSwitchView.m; sourceTree = "<group>"; };
+		AEFEFFD6B39D509A49B75AB740B98FBB /* TextViewAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TextViewAlertView.m; sourceTree = "<group>"; };
+		C4B221343CA71022A5560F4963AEBE6A /* CXDatePickView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CXDatePickView.m; sourceTree = "<group>"; };
+		C755D96E4F6522ED3475F6C981CB6CB7 /* CXSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXSwitchView.h; sourceTree = "<group>"; };
+		CBBDAC6D4051AECF820DC22D54EE34DC /* StarChiTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StarChiTools.h; path = StarChiTools/Classes/StarChiTools.h; sourceTree = "<group>"; };
+		D4D7641AF03672B2AAF8D9B3F9C7673A /* StarChiTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarChiTools-dummy.m"; sourceTree = "<group>"; };
 		F11DCCE0E43CCEF645BF26E480CA43DB /* Pods-StarChiTools-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarChiTools-frameworks.sh"; sourceTree = "<group>"; };
 		F181A9DA69705E3AACA55F0FACAADA16 /* Pods-StarChiTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarChiTools.debug.xcconfig"; sourceTree = "<group>"; };
+		F186AABBEBB3881C5AD32170CD2CCBAB /* TextViewAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextViewAlertView.h; sourceTree = "<group>"; };
 		F2271A991BBABB2CFE0CFD2FAB5A4336 /* Pods-StarChiTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarChiTools-umbrella.h"; sourceTree = "<group>"; };
-		F57D2F0A2EC390F07BC321FD999CBBA3 /* CXDatePickView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CXDatePickView.h; sourceTree = "<group>"; };
-		F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F70335287BAF3D5BE29C02139F99F650 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FD9E05879593628D65D6B03E22335934 /* Pods-StarChiTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarChiTools.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */ = {
+		0BE2711D11346C99C4B1EC24DA36CD70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A601994621C892656F60D1A1292A9565 /* CoreGraphics.framework in Frameworks */,
-				FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */,
-				64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */,
+				AAD29823A035F3A5D39A7B2C658FF992 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B34AC3D625D473C75F464BFC9E7A3701 /* Frameworks */ = {
+		1CED3304C427E5FAB5928C97BE7A5C7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7547C6E13B778E588A2B60AF851441B /* Foundation.framework in Frameworks */,
-				9585329DA46B828C05412F91D05959A8 /* MBProgressHUD.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D15340BF53F6ECF8374CEFD8FE52B067 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F577B8E0584616877479393158F32B0B /* Foundation.framework in Frameworks */,
+				7AFD061AA59C0C87BFD95B7967FB78E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03008EA7FA88E465302796FC1C541B71 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */,
-				6152B0CD59AAF2557B3AA4375B61BEED /* MBProgressHUD.m */,
-				972C05D4ABF4AFE0028A9907AE29C8E3 /* Support Files */,
-			);
-			name = MBProgressHUD;
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		0862DC8759E80604FB279D3A186CE058 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,108 +96,72 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		17AC44891EBA6F72396DFAFFA0BDB0E2 /* Pod */ = {
+		3D2EF3FD1DA7D5C5290BEEBFB5DE2ED2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6A3B4CB50C25389D58CDDF67543E0FDA /* LICENSE */,
-				949CDA0FCB8E1CFBB18EB89959A23E89 /* README.md */,
-				7A3DB5C5EE6FDD2943B87E56766B330D /* StarChiTools.podspec */,
+				9B69226495EC3195761DC0EFE5B83422 /* StarChiTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53333EDD07AA484F30D97E84EFB6F027 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				997839ADED04D4B74B5880D0CD05EFEA /* LICENSE */,
+				F70335287BAF3D5BE29C02139F99F650 /* README.md */,
+				5A20AF676B4A51F9326659ABC76DF5D6 /* StarChiTools.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		1ECFF15B3FA3A247B84AE4DA377F6BF3 /* ToolsAndViews */ = {
+		5E5AD1249EFBA3BEF23B03823C238113 /* ToolsAndViews */ = {
 			isa = PBXGroup;
 			children = (
-				F57D2F0A2EC390F07BC321FD999CBBA3 /* CXDatePickView.h */,
-				66F802128FE45045D9E315D7888F93A3 /* CXDatePickView.m */,
-				3C7C73FE7BFC9F4878BFD63D4AFD0F8A /* CXSwitchView.h */,
-				EF561979532831ED0F63B057D1722A1C /* CXSwitchView.m */,
-				80F7924694FA9FB4EDEF5AFA5A4AF3DE /* CXTools.h */,
-				E2664F89261F57ABED1B5E62BA438958 /* CXTools.m */,
-				89FE0DB25C646A31729DC544B89FA03F /* MBProgressHUD+MJ.h */,
-				4F33ADFCB527F68C5371AA3DFC176C30 /* MBProgressHUD+MJ.m */,
-				2B2B75D3B508D7CC1A9415C19C945115 /* TextViewAlertView.h */,
-				DF38F94552DA7ACB9926A8CDC4800AF0 /* TextViewAlertView.m */,
+				A024325FBD8E8CF406893D386827E0FE /* CXDatePickView.h */,
+				C4B221343CA71022A5560F4963AEBE6A /* CXDatePickView.m */,
+				C755D96E4F6522ED3475F6C981CB6CB7 /* CXSwitchView.h */,
+				AA87766886EA8D2DBA44522ADF26C18A /* CXSwitchView.m */,
+				9EAE9E122A7237637D54875AEBBC3CE3 /* CXTools.h */,
+				1F4B6AC8DD90694C87F4A214DFF883E7 /* CXTools.m */,
+				F186AABBEBB3881C5AD32170CD2CCBAB /* TextViewAlertView.h */,
+				AEFEFFD6B39D509A49B75AB740B98FBB /* TextViewAlertView.m */,
 			);
 			name = ToolsAndViews;
 			path = StarChiTools/Classes/ToolsAndViews;
 			sourceTree = "<group>";
 		};
-		275401AA312D2751AF74964B17F635C2 /* StarChiTools */ = {
+		9B69226495EC3195761DC0EFE5B83422 /* StarChiTools */ = {
 			isa = PBXGroup;
 			children = (
-				6A04F0E2F8F6F75FAD6F241DB002D4AA /* StarChiTools.h */,
-				17AC44891EBA6F72396DFAFFA0BDB0E2 /* Pod */,
-				691649EE0A3CFEDDF01E1DB0254C5D3B /* Support Files */,
-				1ECFF15B3FA3A247B84AE4DA377F6BF3 /* ToolsAndViews */,
+				CBBDAC6D4051AECF820DC22D54EE34DC /* StarChiTools.h */,
+				53333EDD07AA484F30D97E84EFB6F027 /* Pod */,
+				9E46EE21017CEF7F637A3C744CE359C1 /* Support Files */,
+				5E5AD1249EFBA3BEF23B03823C238113 /* ToolsAndViews */,
 			);
 			name = StarChiTools;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3D2EF3FD1DA7D5C5290BEEBFB5DE2ED2 /* Development Pods */ = {
+		9E46EE21017CEF7F637A3C744CE359C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				275401AA312D2751AF74964B17F635C2 /* StarChiTools */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				03008EA7FA88E465302796FC1C541B71 /* MBProgressHUD */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4347003930644A0FB44BA7E83B114CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
-				1951D88FA7A178AC3A5D789120B13AEB /* Pods_StarChiTools.framework */,
-				30EDA8E1946FC414332E07FDDABBA9B0 /* StarChiTools.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49DF5BAE7709B0460CC3643558F4D6BB /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				071CD838077A924EAF357E1DE5D9716B /* CoreGraphics.framework */,
-				F5BCF729F0AC4E817CE9017EC11D1B3F /* Foundation.framework */,
-				BBFE4313B24B1C09CAF4727DD4C9201E /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		691649EE0A3CFEDDF01E1DB0254C5D3B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A2D7C589177C8B40FF7FCC6EA942000 /* StarChiTools.modulemap */,
-				B9777BE48648035B5734C1BD7A2CAA7D /* StarChiTools.xcconfig */,
-				A58D915C31326BC0CB7FCFEB13A8B4C7 /* StarChiTools-dummy.m */,
-				803DD1086456F08378A881FD65F916F0 /* StarChiTools-Info.plist */,
-				C028D4477E354FFC0EE543EF08008B7F /* StarChiTools-prefix.pch */,
-				2270747B358595127353FD785E4D1B2E /* StarChiTools-umbrella.h */,
+				51C99537DECCEFC107FB0ABDA5419530 /* StarChiTools.modulemap */,
+				5F7E196E34BF7CDDDA59E6793472E1CF /* StarChiTools.xcconfig */,
+				D4D7641AF03672B2AAF8D9B3F9C7673A /* StarChiTools-dummy.m */,
+				6A23DEA73E273A5BB03B6AE883ECBF6B /* StarChiTools-Info.plist */,
+				272C9F4F08B951EA590E33CA30B3D4C8 /* StarChiTools-prefix.pch */,
+				1B1A6D38255F6A0D8AEB3500E7B97940 /* StarChiTools-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/StarChiTools";
 			sourceTree = "<group>";
 		};
-		972C05D4ABF4AFE0028A9907AE29C8E3 /* Support Files */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				37ABD8DCAA991ADD9AA4DDA40D85379D /* MBProgressHUD.modulemap */,
-				850FF76381C7E65E1AF730D36F519546 /* MBProgressHUD.xcconfig */,
-				657678C8C3FB4725CEE10D8E8607F1EE /* MBProgressHUD-dummy.m */,
-				619D2E1B8E7310902C83396D0E12E72A /* MBProgressHUD-Info.plist */,
-				314A8B77E12FA60EC7A3A26BD6902E97 /* MBProgressHUD-prefix.pch */,
-				071047A4A08135548333750E08C06DA7 /* MBProgressHUD-umbrella.h */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CD0BD9DA14E828323DCC43A166F484CC /* Pods-StarChiTools */ = {
@@ -277,58 +181,55 @@
 			path = "Target Support Files/Pods-StarChiTools";
 			sourceTree = "<group>";
 		};
-		CD496C11F12A36A2E3C576FA77ABD664 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				56452E004419B9A637AC8D1455D07312 /* MBProgressHUD.framework */,
-				49DF5BAE7709B0460CC3643558F4D6BB /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				3D2EF3FD1DA7D5C5290BEEBFB5DE2ED2 /* Development Pods */,
-				CD496C11F12A36A2E3C576FA77ABD664 /* Frameworks */,
-				3F242479102E24C5847AB040CB8095A8 /* Pods */,
-				4347003930644A0FB44BA7E83B114CBB /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D9B60C9C331955C82AE9F68C252E2400 /* Products */,
 				0862DC8759E80604FB279D3A186CE058 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B60C9C331955C82AE9F68C252E2400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1951D88FA7A178AC3A5D789120B13AEB /* Pods_StarChiTools.framework */,
+				30EDA8E1946FC414332E07FDDABBA9B0 /* StarChiTools.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */ = {
+		640B8DE7A196672F75C5A70724BE893C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */,
-				EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */,
+				FF0EBCF560604CB57B68A4E751F12851 /* Pods-StarChiTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD52FCB4BD8AF3CE94B41C3F7CDD6C72 /* Headers */ = {
+		F4469466CDF195E6A3731FD4937E5816 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59C76A50BA72437E5F1448CBBFAD9FAA /* Pods-StarChiTools-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E798A4AAEC6F36D50A81A455041C910F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC298144D2B0E5A09EC9923D319DADB6 /* CXDatePickView.h in Headers */,
-				586AB2CECD9C8D15884EB85822FC2704 /* CXSwitchView.h in Headers */,
-				D8441158F117451184DC4BD1A9476C2A /* CXTools.h in Headers */,
-				9484DEED00CB34EF47DDB70577496333 /* MBProgressHUD+MJ.h in Headers */,
-				203E257F98A7FC0745E7E807B92E5D48 /* StarChiTools-umbrella.h in Headers */,
-				2E2EFDC8207F98ACB60D43964CE41996 /* StarChiTools.h in Headers */,
-				90C0D19689E7ADBEA56BE1E36CE4EC17 /* TextViewAlertView.h in Headers */,
+				1746989E77E010935943136D19095C92 /* CXDatePickView.h in Headers */,
+				7BD53DE09C23BBAC7950D12AC7959E6A /* CXSwitchView.h in Headers */,
+				893ED9DF5A0381F600B5B32C940283BA /* CXTools.h in Headers */,
+				F5424B5E3AD2DCD38A3C02C3552FE6F1 /* StarChiTools-umbrella.h in Headers */,
+				9CB6B8FEA9354310975F4C3071EC44EE /* StarChiTools.h in Headers */,
+				D79B2BFED41279F9961866B9A999B49B /* TextViewAlertView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,18 +238,17 @@
 /* Begin PBXNativeTarget section */
 		27C0928EAD4C4ECD11C1A0794A13E291 /* Pods-StarChiTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4357E6D9EA8222C95CFD7324BF23807B /* Build configuration list for PBXNativeTarget "Pods-StarChiTools" */;
+			buildConfigurationList = 23E4E77215912072324CE2AEBCB361BA /* Build configuration list for PBXNativeTarget "Pods-StarChiTools" */;
 			buildPhases = (
-				AD52FCB4BD8AF3CE94B41C3F7CDD6C72 /* Headers */,
-				410E11AC514CCBA11F24A8A546AEAE18 /* Sources */,
-				D15340BF53F6ECF8374CEFD8FE52B067 /* Frameworks */,
-				F0BA282573F6F0373B08B40FD6526440 /* Resources */,
+				640B8DE7A196672F75C5A70724BE893C /* Headers */,
+				0D758A1CA9BC4FD7BED196C6DDA152E3 /* Sources */,
+				0BE2711D11346C99C4B1EC24DA36CD70 /* Frameworks */,
+				424EF064F0A40231E7E68FB366E99A18 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5662DFAD6867E74F5ED5B026FB7579D2 /* PBXTargetDependency */,
-				44C25D75DE970AFAFD140C8CB738FBD5 /* PBXTargetDependency */,
+				7E76A02D720BC9F4D5C994BD0281D39A /* PBXTargetDependency */,
 			);
 			name = "Pods-StarChiTools";
 			productName = "Pods-StarChiTools";
@@ -357,39 +257,20 @@
 		};
 		425D476AC54FF8E6C71E36FA0729947C /* StarChiTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAC2D91ED4BABC403B4EF82B604DC4EB /* Build configuration list for PBXNativeTarget "StarChiTools" */;
+			buildConfigurationList = 83BA35C0DE8D3E3F8B64544B6E765A8F /* Build configuration list for PBXNativeTarget "StarChiTools" */;
 			buildPhases = (
-				E798A4AAEC6F36D50A81A455041C910F /* Headers */,
-				1C89FF5496E47464108A5D49D9A80173 /* Sources */,
-				B34AC3D625D473C75F464BFC9E7A3701 /* Frameworks */,
-				079DE2563BCB9FED58B135ECA91923A9 /* Resources */,
+				F4469466CDF195E6A3731FD4937E5816 /* Headers */,
+				E4125F51AE58A85030B673E3D9582353 /* Sources */,
+				1CED3304C427E5FAB5928C97BE7A5C7D /* Frameworks */,
+				F59DB6BD02189F573F1148EF241FD84F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				71902B8EC1436DE154024B16E95CC775 /* PBXTargetDependency */,
 			);
 			name = StarChiTools;
 			productName = StarChiTools;
 			productReference = 30EDA8E1946FC414332E07FDDABBA9B0 /* StarChiTools.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
-			buildPhases = (
-				8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */,
-				D2F84DC2E2DB3628B17B3841F2837477 /* Sources */,
-				1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */,
-				435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MBProgressHUD;
-			productName = MBProgressHUD;
-			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -409,11 +290,10 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4347003930644A0FB44BA7E83B114CBB /* Products */;
+			productRefGroup = D9B60C9C331955C82AE9F68C252E2400 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				27C0928EAD4C4ECD11C1A0794A13E291 /* Pods-StarChiTools */,
 				425D476AC54FF8E6C71E36FA0729947C /* StarChiTools */,
 			);
@@ -421,21 +301,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		079DE2563BCB9FED58B135ECA91923A9 /* Resources */ = {
+		424EF064F0A40231E7E68FB366E99A18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0BA282573F6F0373B08B40FD6526440 /* Resources */ = {
+		F59DB6BD02189F573F1148EF241FD84F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,56 +318,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C89FF5496E47464108A5D49D9A80173 /* Sources */ = {
+		0D758A1CA9BC4FD7BED196C6DDA152E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FE1A7CD08D35DCAE1EB38FB42407C7 /* CXDatePickView.m in Sources */,
-				6DBD55D8B9829855B67B1D938E481704 /* CXSwitchView.m in Sources */,
-				AF6C21B312F139494D97FE8DAB361BF7 /* CXTools.m in Sources */,
-				5CD21B6782550A2DB8C9861E32AD9AEB /* MBProgressHUD+MJ.m in Sources */,
-				43C929AC64305D79DB73C0B06A5C7DF5 /* StarChiTools-dummy.m in Sources */,
-				19C0E4650126F1B260C2B989204A9954 /* TextViewAlertView.m in Sources */,
+				B7E5DADB5E4A2F3AB759D8F4920E2166 /* Pods-StarChiTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		410E11AC514CCBA11F24A8A546AEAE18 /* Sources */ = {
+		E4125F51AE58A85030B673E3D9582353 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA2AA7E38283E40177A3DDF78D5C0E0 /* Pods-StarChiTools-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2F84DC2E2DB3628B17B3841F2837477 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */,
-				70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */,
+				C1BA50BAFD7B7D191067A3AD5E82B42B /* CXDatePickView.m in Sources */,
+				C6EA97CE67E6E4571658385857FF2B81 /* CXSwitchView.m in Sources */,
+				FCBD8A495C40A47630188EBB3AF88FFF /* CXTools.m in Sources */,
+				16C82A31739E1E1ED53F8CBCB27474F6 /* StarChiTools-dummy.m in Sources */,
+				29FD91A9C341A00CB01025F6D4545C0E /* TextViewAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		44C25D75DE970AFAFD140C8CB738FBD5 /* PBXTargetDependency */ = {
+		7E76A02D720BC9F4D5C994BD0281D39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StarChiTools;
 			target = 425D476AC54FF8E6C71E36FA0729947C /* StarChiTools */;
-			targetProxy = 14CBF56FCE6D458B722E1D765D4344FC /* PBXContainerItemProxy */;
-		};
-		5662DFAD6867E74F5ED5B026FB7579D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = CDEBEB29590693947E74D868B3B42A9D /* PBXContainerItemProxy */;
-		};
-		71902B8EC1436DE154024B16E95CC775 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 8830CE53E1CFD09EB30F7D472EC05475 /* PBXContainerItemProxy */;
+			targetProxy = 4E7447ADF378013FF1A740ACFB03E9A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -563,9 +414,9 @@
 			};
 			name = Debug;
 		};
-		4C97AEF5D7921B846AC09B5C6033B7BC /* Release */ = {
+		1ED916D8CEC53C35F39918ACA91B67D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9777BE48648035B5734C1BD7A2CAA7D /* StarChiTools.xcconfig */;
+			baseConfigurationReference = 5F7E196E34BF7CDDDA59E6793472E1CF /* StarChiTools.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -595,7 +446,38 @@
 			};
 			name = Release;
 		};
-		819ABDB707C71580BE5DF2CAF4ED84C7 /* Debug */ = {
+		A7EBE370EE5133C142AD64E6375326C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7E196E34BF7CDDDA59E6793472E1CF /* StarChiTools.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StarChiTools/StarChiTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarChiTools/StarChiTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StarChiTools/StarChiTools.modulemap";
+				PRODUCT_MODULE_NAME = StarChiTools;
+				PRODUCT_NAME = StarChiTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9F5961A03FB83C61C1B5CFC5441165A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F181A9DA69705E3AACA55F0FACAADA16 /* Pods-StarChiTools.debug.xcconfig */;
 			buildSettings = {
@@ -628,102 +510,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8310218102D4802E4ED3161ADAFB674F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 850FF76381C7E65E1AF730D36F519546 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		85BA0C0EF5B239725C60B0438A2611C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A5B44719A8BFD0097FAD6C9B1036DEC /* Pods-StarChiTools.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StarChiTools/Pods-StarChiTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StarChiTools/Pods-StarChiTools.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A605E34A59A7E47EC796F2391BAC87F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 850FF76381C7E65E1AF730D36F519546 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -785,10 +571,11 @@
 			};
 			name = Release;
 		};
-		D07320403FC939FCF52EBED97A4FDE0E /* Debug */ = {
+		B6FE7DA35B4CD1D840D366F5D9DF3728 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9777BE48648035B5734C1BD7A2CAA7D /* StarChiTools.xcconfig */;
+			baseConfigurationReference = 4A5B44719A8BFD0097FAD6C9B1036DEC /* Pods-StarChiTools.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -799,31 +586,34 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StarChiTools/StarChiTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StarChiTools/StarChiTools-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarChiTools/Pods-StarChiTools-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StarChiTools/StarChiTools.modulemap";
-				PRODUCT_MODULE_NAME = StarChiTools;
-				PRODUCT_NAME = StarChiTools;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarChiTools/Pods-StarChiTools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4357E6D9EA8222C95CFD7324BF23807B /* Build configuration list for PBXNativeTarget "Pods-StarChiTools" */ = {
+		23E4E77215912072324CE2AEBCB361BA /* Build configuration list for PBXNativeTarget "Pods-StarChiTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				819ABDB707C71580BE5DF2CAF4ED84C7 /* Debug */,
-				85BA0C0EF5B239725C60B0438A2611C8 /* Release */,
+				A9F5961A03FB83C61C1B5CFC5441165A /* Debug */,
+				B6FE7DA35B4CD1D840D366F5D9DF3728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -837,20 +627,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		83BA35C0DE8D3E3F8B64544B6E765A8F /* Build configuration list for PBXNativeTarget "StarChiTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8310218102D4802E4ED3161ADAFB674F /* Debug */,
-				A605E34A59A7E47EC796F2391BAC87F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAC2D91ED4BABC403B4EF82B604DC4EB /* Build configuration list for PBXNativeTarget "StarChiTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D07320403FC939FCF52EBED97A4FDE0E /* Debug */,
-				4C97AEF5D7921B846AC09B5C6033B7BC /* Release */,
+				A7EBE370EE5133C142AD64E6375326C6 /* Debug */,
+				1ED916D8CEC53C35F39918ACA91B67D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

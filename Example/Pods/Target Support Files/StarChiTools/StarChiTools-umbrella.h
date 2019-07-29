@@ -14,7 +14,6 @@
 #import "CXDatePickView.h"
 #import "CXSwitchView.h"
 #import "CXTools.h"
-#import "MBProgressHUD+MJ.h"
 #import "TextViewAlertView.h"
 
 FOUNDATION_EXPORT double StarChiToolsVersionNumber;

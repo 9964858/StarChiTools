@@ -41,9 +41,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark -
 
-// 获取App的全部版本信息，App版本，基座版本，门户版本，能力列表版本
-+ (NSDictionary *)getAppVersionInfo;
-
 //将大小转化为格式,B,L,M,G之间的转换
 + (NSString *)convertFloatSizeToString:(float)size;
 

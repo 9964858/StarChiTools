@@ -19,10 +19,5 @@
     "ios": "10.0"
   },
   "source_files": "StarChiTools/Classes/**/*",
-  "public_header_files": "StarChiTools/Classes/**/*.h",
-  "dependencies": {
-    "MBProgressHUD": [
-
-    ]
-  }
+  "public_header_files": "StarChiTools/Classes/**/*.h"
 }

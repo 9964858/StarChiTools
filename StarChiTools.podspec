@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   s.public_header_files = 'StarChiTools/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'MBProgressHUD'
+  # s.dependency 'MBProgressHUD'
 end
